@@ -1,0 +1,107 @@
+/* Estilo general */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center; /* Centra todo el texto */
+}
+
+/* Encabezado */
+header {
+    background-image: url('banner.PNG');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 20px;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    background-color: #0288d1;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #026aa7; /* Efecto al pasar el mouse */
+}
+
+/* Imagen principal */
+.imagen-principal {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+/* Pie de página */
+footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .imagen-principal {
+        width: 200px;
+    }
+}
+
+/* Galería */
+
+.imagen-galeria {
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
